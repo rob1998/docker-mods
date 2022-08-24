@@ -3,7 +3,7 @@ name: Build Image
 on: [push, pull_request, workflow_dispatch]
 
 env:
-  ENDPOINT: "linuxserver/mods"
+  ENDPOINT: "rob1998/docker-mods"
   BASEIMAGE: "nextcloud"
   MODNAME: "large-uploads"
 
