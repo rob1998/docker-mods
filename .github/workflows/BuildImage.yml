@@ -5,7 +5,7 @@ on: [push, pull_request, workflow_dispatch]
 env:
   ENDPOINT: "rob1998/docker-mods"
   BASEIMAGE: "nextcloud"
-  MODNAME: "large-uploads"
+  MODNAME: "exiftool"
 
 jobs:
   build:
